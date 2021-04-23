@@ -1,3 +1,14 @@
+## quick start
+将api打包到本地maven仓库
+    
+    ./gradlew api:publishToMavenLocal
+
+build
+
+    ./gradlew build
+
+
+
 #### reference
 * https://github.com/yidongnan/grpc-spring-boot-starter
 * https://github.com/grpc/grpc-kotlin/tree/master/examples

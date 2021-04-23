@@ -1,5 +1,5 @@
 dependencies {
-    implementation(project(":api"))
+    implementation("com.example:api:0.0.1-SNAPSHOT")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
