@@ -1,3 +1,3 @@
 rootProject.name = "grpc-kotlin-springboot"
 
-include("client", "server", "protocol")
+include("client", "server", "api")
