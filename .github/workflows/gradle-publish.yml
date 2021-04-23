@@ -24,12 +24,12 @@ jobs:
 
     - run: chmod +x ./gradlew
     - name: Build with Gradle
-      run: ./gradlew protocol:build
+      run: ./gradlew api:build
 
     # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
     # the publishing section of your build.gradle
     - name: Publish to GitHub Packages
-      run: ./gradlew protocol:publish
+      run: ./gradlew api:publish
       env:
         USERNAME: ${{ github.actor }}
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
